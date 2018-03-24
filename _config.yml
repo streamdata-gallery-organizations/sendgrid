@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: sendgrid.api.streamdata.gallery
+title: Streamdata Gallery SendGrid
+url: sendgrid.streamdata.gallery
 tag: SendGrid
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: sendgrid
 github_branch: master
 collections:
