@@ -1,16 +1,14 @@
 ---
 name: SendGrid
 x-slug: sendgrid
-description: SendGrid is a cloud-based email service that delivers email on behalf
-  of companies to increase deliverability and improve customer communications integration
-  with new or existing email systems is done via SMTP or through a REST API, providing
-  metrics on outgoing email, and handles unsubscribe links, abiding by anti-spam regulations.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
+description: Delivering your transactional and marketing emails through the worlds
+  largest cloud-based email delivery platform. Send with confidence.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "9582"
 tags: SendGrid
-created: "2018-05-22"
-modified: "2018-05-22"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/sendgrid/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
 apis:
@@ -22,8 +20,8 @@ apis:
     IP Access Management allows you to control which IP addresses can be used to access your account, either through the User Interface or the API. There is no limit to the number of IP addresses that you can add to your whitelist. It is possible to remove your own IP address from the whitelist, thus preventing yourself from accessing your account.
 
     For more information, please see our [User Guide](http://sendgrid.com/docs/User_Guide/Settings/ip_access_management.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//access_settings/activity
   tags: Email,Access, Settings, Activity
   properties:
@@ -41,8 +39,8 @@ apis:
     IP Access Management allows you to control which IP addresses can be used to access your account, either through the User Interface or the API. There is no limit to the number of IP addresses that you can add to your whitelist. It is possible to remove your own IP address from the whitelist, thus preventing yourself from accessing your account.
 
     For more information, please see our [User Guide](http://sendgrid.com/docs/User_Guide/Settings/ip_access_management.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//access_settings/whitelist
   tags: Email,Access, Settings, Whitelist
   properties:
@@ -56,8 +54,8 @@ apis:
     IP Access Management allows you to control which IP addresses can be used to access your account, either through the User Interface or the API. There is no limit to the number of IP addresses that you can add to your whitelist. It is possible to remove your own IP address from the whitelist, thus preventing yourself from accessing your account.
 
     For more information, please see our [User Guide](http://sendgrid.com/docs/User_Guide/Settings/ip_access_management.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//access_settings/whitelist
   tags: Email,Access, Settings, Whitelist
   properties:
@@ -75,8 +73,8 @@ apis:
     IP Access Management allows you to control which IP addresses can be used to access your account, either through the User Interface or the API. There is no limit to the number of IP addresses that you can add to your whitelist. It is possible to remove your own IP address from the whitelist, thus preventing yourself from accessing your account.
 
     For more information, please see our [User Guide](http://sendgrid.com/docs/User_Guide/Settings/ip_access_management.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//access_settings/whitelist
   tags: Email,Access, Settings, Whitelist
   properties:
@@ -92,8 +90,8 @@ apis:
     IP Access Management allows you to control which IP addresses can be used to access your account, either through the User Interface or the API. There is no limit to the number of IP addresses that you can add to your whitelist. It is possible to remove your own IP address from the whitelist, thus preventing yourself from accessing your account.
 
     For more information, please see our [User Guide](http://sendgrid.com/docs/User_Guide/Settings/ip_access_management.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//access_settings/whitelist/{rule_id}
   tags: Email,Access, Settings, Whitelist, Rule
   properties:
@@ -109,8 +107,8 @@ apis:
     IP Access Management allows you to control which IP addresses can be used to access your account, either through the User Interface or the API. There is no limit to the number of IP addresses that you can add to your whitelist. It is possible to remove your own IP address from the whitelist, thus preventing yourself from accessing your account.
 
     For more information, please see our [User Guide](http://sendgrid.com/docs/User_Guide/Settings/ip_access_management.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//access_settings/whitelist/{rule_id}
   tags: Email,Access, Settings, Whitelist, Rule
   properties:
@@ -126,8 +124,8 @@ apis:
     which an alert will be sent.\n* Stats notifications allow you to set how frequently
     you would like to receive email statistics reports. For example, \"daily\", \"weekly\",
     or \"monthly\".\n\nFor more information about alerts, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/alerts.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//alerts
   tags: Email,Alerts
   properties:
@@ -144,8 +142,8 @@ apis:
     * `stats_notification` allows you to set how frequently you would like to receive email statistics reports. For example, "daily", "weekly", or "monthly".
 
     For more information about alerts, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/alerts.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//alerts
   tags: Email,Alerts
   properties:
@@ -159,8 +157,8 @@ apis:
     will be sent.\n* Stats notifications allow you to set how frequently you would
     like to receive email statistics reports. For example, \"daily\", \"weekly\",
     or \"monthly\".\n\nFor more information about alerts, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/alerts.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//alerts/{alert_id}
   tags: Email,Alerts, Alert
   properties:
@@ -176,8 +174,8 @@ apis:
     which an alert will be sent.\n* Stats notifications allow you to set how frequently
     you would like to receive email statistics reports. For example, \"daily\", \"weekly\",
     or \"monthly\".\n\nFor more information about alerts, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/alerts.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//alerts/{alert_id}
   tags: Email,Alerts, Alert
   properties:
@@ -193,8 +191,8 @@ apis:
     will be sent.\n* Stats notifications allow you to set how frequently you would
     like to receive email statistics reports. For example, \"daily\", \"weekly\",
     or \"monthly\".\n\nFor more information about alerts, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/alerts.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//alerts/{alert_id}
   tags: Email,Alerts, Alert
   properties:
@@ -206,8 +204,8 @@ apis:
     **This endpoint allows you to retrieve all API Keys that belong to the authenticated user.**
 
     The API Keys feature allows customers to be able to generate an API Key credential which can be used for authentication with the SendGrid v3 Web API or the [Mail API Endpoint](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//api_keys
   tags: Email,Api, Keys
   properties:
@@ -227,8 +225,8 @@ apis:
     The API Keys feature allows customers to be able to generate an API Key credential which can be used for authentication with the SendGrid v3 Web API or the [Mail API Endpoint](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
 
     See the [API Key Permissions List](https://sendgrid.com/docs/API_Reference/Web_API_v3/API_Keys/api_key_permissions_list.html) for a list of all available scopes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//api_keys
   tags: Email,Api, Keys
   properties:
@@ -248,8 +246,8 @@ apis:
     | URI Parameter   | Type  | Required?  | Description  |
     |---|---|---|---|
     |api_key_id |string | required | The ID of the API Key you are deleting.|
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//api_keys/{api_key_id}
   tags: Email,Api, Keys, Api, Key
   properties:
@@ -263,8 +261,8 @@ apis:
     **This endpoint allows you to retrieve a single api key.**
 
     If the API Key ID does not exist an HTTP 404 will be returned.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//api_keys/{api_key_id}
   tags: Email,Api, Keys, Api, Key
   properties:
@@ -286,8 +284,8 @@ apis:
     | URI Parameter   | Type  | Required?  | Description  |
     |---|---|---|---|
     |api_key_id |string | required | The ID of the API Key you are updating.|
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//api_keys/{api_key_id}
   tags: Email,Api, Keys, Api, Key
   properties:
@@ -302,8 +300,8 @@ apis:
     Most provide the list of all the scopes an api key should have.
 
     The API Keys feature allows customers to be able to generate an API Key credential which can be used for authentication with the SendGrid v3 Web API or the [Mail API Endpoint](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//api_keys/{api_key_id}
   tags: Email,Api, Keys, Api, Key
   properties:
@@ -319,8 +317,8 @@ apis:
     Suppressions are a list of email addresses that will not receive content sent under a given [group](https://sendgrid.com/docs/API_Reference/Web_API_v3/Suppression_Management/groups.html).
 
     Suppression groups, or [unsubscribe groups](https://sendgrid.com/docs/API_Reference/Web_API_v3/Suppression_Management/groups.html), allow you to label a category of content that you regularly send. This gives your recipients the ability to opt out of a specific set of your email. For example, you might define a group for your transactional email, and one for your marketing email so that your users can continue recieving your transactional email witout having to receive your marketing content.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//asm/groups
   tags: Email,Asm, Groups
   properties:
@@ -338,8 +336,8 @@ apis:
     The **name** and **description** of the unsubscribe group will be visible by recipients when they are managing their subscriptions.
 
     Each user can create up to 25 different suppression groups.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//asm/groups
   tags: Email,Asm, Groups
   properties:
@@ -357,8 +355,8 @@ apis:
     The **name** and **description** of the unsubscribe group will be visible by recipients when they are managing their subscriptions.
 
     Each user can create up to 25 different suppression groups.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//asm/groups/{group_id}
   tags: Email,Asm, Groups, Group
   properties:
@@ -374,8 +372,8 @@ apis:
     The **name** and **description** of the unsubscribe group will be visible by recipients when they are managing their subscriptions.
 
     Each user can create up to 25 different suppression groups.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//asm/groups/{group_id}
   tags: Email,Asm, Groups, Group
   properties:
@@ -393,8 +391,8 @@ apis:
     The **name** and **description** of the unsubscribe group will be visible by recipients when they are managing their subscriptions.
 
     Each user can create up to 25 different suppression groups.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//asm/groups/{group_id}
   tags: Email,Asm, Groups, Group
   properties:
@@ -406,8 +404,8 @@ apis:
     **This endpoint allows you to retrieve all suppressed email addresses belonging to the given group.**
 
     Suppressions are recipient email addresses that are added to [unsubscribe groups](https://sendgrid.com/docs/API_Reference/Web_API_v3/Suppression_Management/groups.html). Once a recipient's address is on the suppressions list for an unsubscribe group, they will not receive any emails that are tagged with that unsubscribe group.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//asm/groups/{group_id}/suppressions
   tags: Email,Asm, Groups, Group, , Suppressions
   properties:
@@ -423,8 +421,8 @@ apis:
     If you attempt to add suppressions to a group that has been deleted or does not exist, the suppressions will be added to the global suppressions list.
 
     Suppressions are recipient email addresses that are added to [unsubscribe groups](https://sendgrid.com/docs/API_Reference/Web_API_v3/Suppression_Management/groups.html). Once a recipient's address is on the suppressions list for an unsubscribe group, they will not receive any emails that are tagged with that unsubscribe group.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//asm/groups/{group_id}/suppressions
   tags: Email,Asm, Groups, Group, , Suppressions
   properties:
@@ -438,8 +436,8 @@ apis:
     When given a list of email addresses and a group ID, this endpoint will return only the email addresses that have been unsubscribed from the given group.
 
     Suppressions are a list of email addresses that will not receive content sent under a given [group](https://sendgrid.com/docs/API_Reference/Web_API_v3/Suppression_Management/groups.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//asm/groups/{group_id}/suppressions/search
   tags: Email,Asm, Groups, Group, , Suppressions, Search
   properties:
@@ -451,8 +449,8 @@ apis:
     **This endpoint allows you to remove a suppressed email address from the given suppression group.**
 
     Suppressions are recipient email addresses that are added to [unsubscribe groups](https://sendgrid.com/docs/API_Reference/Web_API_v3/Suppression_Management/groups.html). Once a recipient's address is on the suppressions list for an unsubscribe group, they will not receive any emails that are tagged with that unsubscribe group.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//asm/groups/{group_id}/suppressions/{email}
   tags: Email,Asm, Groups, Group, , Suppressions, Email
   properties:
@@ -464,8 +462,8 @@ apis:
     **This endpoint allows you to retrieve a list of all suppressions.**
 
     Suppressions are a list of email addresses that will not receive content sent under a given [group](https://sendgrid.com/docs/API_Reference/Web_API_v3/Suppression_Management/groups.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//asm/suppressions
   tags: Email,Asm, Suppressions
   properties:
@@ -477,8 +475,8 @@ apis:
     **This endpoint allows you to add one or more email addresses to the global suppressions group.**
 
     A global suppression (or global unsubscribe) is an email address of a recipient who does not want to receive any of your messages. A globally suppressed recipient will be removed from any email you send. For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/global_unsubscribes.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//asm/suppressions/global
   tags: Email,Asm, Suppressions, Global
   properties:
@@ -490,8 +488,8 @@ apis:
     **This endpoint allows you to remove an email address from the global suppressions group.**
 
     A global suppression (or global unsubscribe) is an email address of a recipient who does not want to receive any of your messages. A globally suppressed recipient will be removed from any email you send. For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/global_unsubscribes.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//asm/suppressions/global/{email}
   tags: Email,Asm, Suppressions, Global, Email
   properties:
@@ -505,8 +503,8 @@ apis:
     If the email address you include in the URL path parameter `{email}` is alreayd globally suppressed, the response will include that email address. If the address you enter for `{email}` is not globally suppressed, an empty JSON object `{}` will be returned.
 
     A global suppression (or global unsubscribe) is an email address of a recipient who does not want to receive any of your messages. A globally suppressed recipient will be removed from any email you send. For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/global_unsubscribes.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//asm/suppressions/global/{email}
   tags: Email,Asm, Suppressions, Global, Email
   properties:
@@ -518,8 +516,8 @@ apis:
     **This endpoint returns the list of all groups that the given email address has been unsubscribed from.**
 
     Suppressions are a list of email addresses that will not receive content sent under a given [group](https://sendgrid.com/docs/API_Reference/Web_API_v3/Suppression_Management/groups.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//asm/suppressions/{email}
   tags: Email,Asm, Suppressions, Email
   properties:
@@ -533,8 +531,8 @@ apis:
     **We only store up to 7 days of email activity in our database.** By default, 500 items will be returned per request via the Advanced Stats API endpoints.
 
     Advanced Stats provide a more in-depth view of your email statistics and the actions taken by your recipients. You can segment these statistics by geographic location, device type, client type, browser, and mailbox provider. For more information about statistics, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/index.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//browsers/stats
   tags: Email,Browsers, Stats
   properties:
@@ -554,8 +552,8 @@ apis:
     For more information:
 
     * [User Guide > Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html)
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//campaigns
   tags: Email,Campaigns
   properties:
@@ -575,8 +573,8 @@ apis:
     For more information:
 
     * [User Guide > Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html)
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//campaigns
   tags: Email,Campaigns
   properties:
@@ -592,8 +590,8 @@ apis:
     For more information:
 
     * [User Guide > Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html)
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//campaigns/{campaign_id}
   tags: Email,Campaigns, Campaign
   properties:
@@ -609,8 +607,8 @@ apis:
     For more information:
 
     * [User Guide > Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html)
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//campaigns/{campaign_id}
   tags: Email,Campaigns, Campaign
   properties:
@@ -626,8 +624,8 @@ apis:
     For more information:
 
     * [User Guide > Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html)
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//campaigns/{campaign_id}
   tags: Email,Campaigns, Campaign
   properties:
@@ -644,8 +642,8 @@ apis:
     For more information:
 
     * [User Guide > Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html)
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//campaigns/{campaign_id}/schedules
   tags: Email,Campaigns, Campaign, , Schedules
   properties:
@@ -659,8 +657,8 @@ apis:
     For more information:
 
     * [User Guide > Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html)
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//campaigns/{campaign_id}/schedules
   tags: Email,Campaigns, Campaign, , Schedules
   properties:
@@ -676,8 +674,8 @@ apis:
     For more information:
 
     * [User Guide > Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html)
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//campaigns/{campaign_id}/schedules
   tags: Email,Campaigns, Campaign, , Schedules
   properties:
@@ -691,8 +689,8 @@ apis:
     For more information:
 
     * [User Guide > Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html)
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//campaigns/{campaign_id}/schedules
   tags: Email,Campaigns, Campaign, , Schedules
   properties:
@@ -708,8 +706,8 @@ apis:
     For more information:
 
     * [User Guide > Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html)
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//campaigns/{campaign_id}/schedules/now
   tags: Email,Campaigns, Campaign, , Schedules, Now
   properties:
@@ -725,8 +723,8 @@ apis:
     For more information:
 
     * [User Guide > Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html)
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//campaigns/{campaign_id}/schedules/test
   tags: Email,Campaigns, Campaign, , Schedules, Test
   properties:
@@ -738,8 +736,8 @@ apis:
     can help organize your email analytics by enabling you to \u201Ctag\u201D emails
     by type or broad topic. You can define your own custom categories. For more information,
     please see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/categories.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//categories
   tags: Email,Categories
   properties:
@@ -755,8 +753,8 @@ apis:
     If you do not define any query parameters, this endpoint will return a sum for each category in groups of 10.
 
     Categories allow you to group your emails together according to broad topics that you define. For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/categories.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//categories/stats
   tags: Email,Categories, Stats
   properties:
@@ -772,8 +770,8 @@ apis:
     If you do not define any query parameters, this endpoint will return a sum for each category in groups of 10.
 
     Categories allow you to group your emails together according to broad topics that you define. For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/categories.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//categories/stats/sums
   tags: Email,Categories, Stats, Sums
   properties:
@@ -789,8 +787,8 @@ apis:
     **We only store up to 7 days of email activity in our database.** By default, 500 items will be returned per request via the Advanced Stats API endpoints.
 
     Advanced Stats provide a more in-depth view of your email statistics and the actions taken by your recipients. You can segment these statistics by geographic location, device type, client type, browser, and mailbox provider. For more information about statistics, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/index.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//clients/stats
   tags: Email,Clients, Stats
   properties:
@@ -812,8 +810,8 @@ apis:
     - desktop
 
     Advanced Stats provide a more in-depth view of your email statistics and the actions taken by your recipients. You can segment these statistics by geographic location, device type, client type, browser, and mailbox provider. For more information about statistics, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/index.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//clients/{client_type}/stats
   tags: Email,Clients, Client, Type, Stats
   properties:
@@ -825,8 +823,8 @@ apis:
   x-api-slug: sendgrid
   description: "**This endpoint allows you to retrieve all custom fields.** \n\nThe
     contactdb is a database of your contacts for [SendGrid Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/custom_fields
   tags: Email,Contactdb, Custom, Fields
   properties:
@@ -840,8 +838,8 @@ apis:
     **This endpoint allows you to create a custom field.**
 
     The contactdb is a database of your contacts for [SendGrid Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/custom_fields
   tags: Email,Contactdb, Custom, Fields
   properties:
@@ -853,8 +851,8 @@ apis:
     **This endpoint allows you to delete a custom field by ID.**
 
     The contactdb is a database of your contacts for [SendGrid Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/custom_fields/{custom_field_id}
   tags: Email,Contactdb, Custom, Fields, Custom, Field
   properties:
@@ -866,8 +864,8 @@ apis:
     **This endpoint allows you to retrieve a custom field by ID.**
 
     The contactdb is a database of your contacts for [SendGrid Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/custom_fields/{custom_field_id}
   tags: Email,Contactdb, Custom, Fields, Custom, Field
   properties:
@@ -881,8 +879,8 @@ apis:
     **This endpoint allows you to delete multiple recipient lists.**
 
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/lists
   tags: Email,Contactdb, Lists
   properties:
@@ -894,8 +892,8 @@ apis:
     **This endpoint allows you to retrieve all of your recipient lists. If you don't have any lists, an empty array will be returned.**
 
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/lists
   tags: Email,Contactdb, Lists
   properties:
@@ -909,8 +907,8 @@ apis:
     **This endpoint allows you to create a list for your recipients.**
 
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/lists
   tags: Email,Contactdb, Lists
   properties:
@@ -922,8 +920,8 @@ apis:
     **This endpoint allows you to delete a specific recipient list with the given ID.**
 
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/lists/{list_id}
   tags: Email,Contactdb, Lists, List
   properties:
@@ -935,8 +933,8 @@ apis:
     This endpoint allows you to retrieve a single recipient list.
 
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/lists/{list_id}
   tags: Email,Contactdb, Lists, List
   properties:
@@ -951,8 +949,8 @@ apis:
 
 
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/lists/{list_id}
   tags: Email,Contactdb, Lists, List
   properties:
@@ -963,8 +961,8 @@ apis:
   description: "**This endpoint allows you to retrieve all recipients on the list
     with the given ID.** \n\nThe Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html)
     recipients."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/lists/{list_id}/recipients
   tags: Email,Contactdb, Lists, List, , Recipients
   properties:
@@ -980,8 +978,8 @@ apis:
     Adds existing recipients to a list, passing in the recipient IDs to add. Recipient IDs should be passed exactly as they are returned from recipient endpoints.
 
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/lists/{list_id}/recipients
   tags: Email,Contactdb, Lists, List, , Recipients
   properties:
@@ -993,8 +991,8 @@ apis:
     **This endpoint allows you to delete a single recipient from a list.**
 
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/lists/{list_id}/recipients/{recipient_id}
   tags: Email,Contactdb, Lists, List, , Recipients, Recipient
   properties:
@@ -1006,8 +1004,8 @@ apis:
     **This endpoint allows you to add a single recipient to a list.**
 
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/lists/{list_id}/recipients/{recipient_id}
   tags: Email,Contactdb, Lists, List, , Recipients, Recipient
   properties:
@@ -1021,8 +1019,8 @@ apis:
     The body of an API call to this endpoint must include an array of recipient IDs of the recipients you want to delete.
 
     The contactdb is a database of your contacts for [SendGrid Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/recipients
   tags: Email,Contactdb, Recipients
   properties:
@@ -1037,8 +1035,8 @@ apis:
     the list of recipients. To avoid this issue; iterate over pages until a 404 is retrieved.
 
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/recipients
   tags: Email,Contactdb, Recipients
   properties:
@@ -1056,8 +1054,8 @@ apis:
     It is of note that you can add custom field data as parameters on recipient objects. We have provided an example using some of the default custom fields SendGrid provides.
 
     The contactdb is a database of your contacts for [SendGrid Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/recipients
   tags: Email,Contactdb, Recipients
   properties:
@@ -1071,8 +1069,8 @@ apis:
     You can add custom field data as a parameter on this endpoint. We have provided an example using some of the default custom fields SendGrid provides.
 
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/recipients
   tags: Email,Contactdb, Recipients
   properties:
@@ -1086,8 +1084,8 @@ apis:
     You are billed for marketing campaigns based on the highest number of recipients you have had in your account at one time. This endpoint will allow you to know the current billable count value.
 
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/recipients/billable_count
   tags: Email,Contactdb, Recipients, Billable, Count
   properties:
@@ -1101,8 +1099,8 @@ apis:
     **This endpoint allows you to retrieve the total number of Marketing Campaigns recipients.**
 
     The contactdb is a database of your contacts for [SendGrid Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/recipients/count
   tags: Email,Contactdb, Recipients, Count
   properties:
@@ -1125,8 +1123,8 @@ apis:
     Mon, 02 Feb 2015 23:59:59 GMT.
 
     The contactdb is a database of your contacts for [SendGrid Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/recipients/search
   tags: Email,Contactdb, Recipients, Search
   properties:
@@ -1140,8 +1138,8 @@ apis:
     **This endpoint allows you to delete a single recipient with the given ID from your contact database.**
 
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/recipients/{recipient_id}
   tags: Email,Contactdb, Recipients, Recipient
   properties:
@@ -1153,8 +1151,8 @@ apis:
     **This endpoint allows you to retrieve a single recipient by ID from your contact database.**
 
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/recipients/{recipient_id}
   tags: Email,Contactdb, Recipients, Recipient
   properties:
@@ -1170,8 +1168,8 @@ apis:
     Each recipient can be on many lists. This endpoint gives you all of the lists that any one recipient has been added to.
 
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/recipients/{recipient_id}/lists
   tags: Email,Contactdb, Recipients, Recipient, , Lists
   properties:
@@ -1185,8 +1183,8 @@ apis:
     **This endpoint allows you to list all fields that are reserved and can't be used for custom field names.**
 
     The contactdb is a database of your contacts for [SendGrid Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/reserved_fields
   tags: Email,Contactdb, Reserved, Fields
   properties:
@@ -1202,8 +1200,8 @@ apis:
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
 
     For more information about segments in Marketing Campaigns, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/lists.html#-Create-a-Segment).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/segments
   tags: Email,Contactdb, Segments
   properties:
@@ -1231,8 +1229,8 @@ apis:
     an \"and_or\".\n\nThe Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html)
     recipients.\n\nFor more information about segments in Marketing Campaigns, please
     see our [User Guide](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/lists.html#-Create-a-Segment)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/segments
   tags: Email,Contactdb, Segments
   properties:
@@ -1248,8 +1246,8 @@ apis:
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
 
     For more information about segments in Marketing Campaigns, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/lists.html#-Create-a-Segment).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/segments/{segment_id}
   tags: Email,Contactdb, Segments, Segment
   properties:
@@ -1263,8 +1261,8 @@ apis:
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
 
     For more information about segments in Marketing Campaigns, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/lists.html#-Create-a-Segment).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/segments/{segment_id}
   tags: Email,Contactdb, Segments, Segment
   properties:
@@ -1280,8 +1278,8 @@ apis:
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
 
     For more information about segments in Marketing Campaigns, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/lists.html#-Create-a-Segment).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/segments/{segment_id}
   tags: Email,Contactdb, Segments, Segment
   properties:
@@ -1295,8 +1293,8 @@ apis:
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
 
     For more information about segments in Marketing Campaigns, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/lists.html#-Create-a-Segment).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/segments/{segment_id}/recipients
   tags: Email,Contactdb, Segments, Segment, , Recipients
   properties:
@@ -1307,8 +1305,8 @@ apis:
 - name: SendGrid Get Contactdb Status
   x-api-slug: sendgrid
   description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//contactdb/status
   tags: Email,Contactdb, Status
   properties:
@@ -1329,8 +1327,8 @@ apis:
     You can segment these statistics by geographic location, device type, client type,
     browser, and mailbox provider. For more information about statistics, please see
     our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/index.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//devices/stats
   tags: Email,Devices, Stats
   properties:
@@ -1346,8 +1344,8 @@ apis:
     **We only store up to 7 days of email activity in our database.** By default, 500 items will be returned per request via the Advanced Stats API endpoints.
 
     Advanced Stats provide a more in-depth view of your email statistics and the actions taken by your recipients. You can segment these statistics by geographic location, device type, client type, browser, and mailbox provider. For more information about statistics, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/index.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//geo/stats
   tags: Email,Geo, Stats
   properties:
@@ -1363,8 +1361,8 @@ apis:
     Response includes warm up status, pools, assigned subusers, and whitelabel info. The start_date field corresponds to when warmup started for that IP.
 
     A single IP address or a range of IP addresses may be dedicated to an account in order to send email for multiple domains. The reputation of this IP is based on the aggregate performance of all the senders who use it.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//ips
   tags: Email,Ips
   properties:
@@ -1373,8 +1371,8 @@ apis:
 - name: SendGrid Add Ips
   x-api-slug: sendgrid
   description: This endpoint is for adding a(n) IP Address(es) to your account.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//ips
   tags: Email,Ips
   properties:
@@ -1386,8 +1384,8 @@ apis:
     **This endpoint allows you to retrieve only assigned IP addresses.**
 
     A single IP address or a range of IP addresses may be dedicated to an account in order to send email for multiple domains. The reputation of this IP is based on the aggregate performance of all the senders who use it.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//ips/assigned
   tags: Email,Ips, Assigned
   properties:
@@ -1403,8 +1401,8 @@ apis:
     IP pools can only be used with whitelabeled IP addresses.
 
     If an IP pool is NOT specified for an email, it will use any IP available, including ones in pools.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//ips/pools
   tags: Email,Ips, Pools
   properties:
@@ -1424,8 +1422,8 @@ apis:
     IP pools can only be used with whitelabeled IP addresses.
 
     If an IP pool is NOT specified for an email, it will use any IP available, including ones in pools.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//ips/pools
   tags: Email,Ips, Pools
   properties:
@@ -1441,8 +1439,8 @@ apis:
     IP pools can only be used with whitelabeled IP addresses.
 
     If an IP pool is NOT specified for an email, it will use any IP available, including ones in pools.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//ips/pools/{pool_name}
   tags: Email,Ips, Pools, Pool, Name
   properties:
@@ -1458,8 +1456,8 @@ apis:
     IP pools can only be used with whitelabeled IP addresses.
 
     If an IP pool is NOT specified for an email, it will use any IP available, including ones in pools.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//ips/pools/{pool_name}
   tags: Email,Ips, Pools, Pool, Name
   properties:
@@ -1477,8 +1475,8 @@ apis:
     IP pools can only be used with whitelabeled IP addresses.
 
     If an IP pool is NOT specified for an email, it will use any IP available, including ones in pools.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//ips/pools/{pool_name}
   tags: Email,Ips, Pools, Pool, Name
   properties:
@@ -1492,8 +1490,8 @@ apis:
     You can add the same IP address to multiple pools. It may take up to 60 seconds for your IP address to be added to a pool after your request is made.
 
     A single IP address or a range of IP addresses may be dedicated to an account in order to send email for multiple domains. The reputation of this IP is based on the aggregate performance of all the senders who use it.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//ips/pools/{pool_name}/ips
   tags: Email,Ips, Pools, Pool, Name, Ips
   properties:
@@ -1507,8 +1505,8 @@ apis:
     The same IP address can be added to multiple IP pools.
 
     A single IP address or a range of IP addresses may be dedicated to an account in order to send email for multiple domains. The reputation of this IP is based on the aggregate performance of all the senders who use it.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//ips/pools/{pool_name}/ips/{ip}
   tags: Email,Ips, Pools, Pool, Name, Ips, Ip
   properties:
@@ -1518,8 +1516,8 @@ apis:
   x-api-slug: sendgrid
   description: This endpoint gets amount of IP Addresses that can still be created
     during a given period and the price of those IPs.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//ips/remaining
   tags: Email,Ips, Remaining
   properties:
@@ -1533,8 +1531,8 @@ apis:
     SendGrid can automatically warm up dedicated IP addresses by limiting the amount of mail that can be sent through them per hour, with the limit determined by how long the IP address has been in warmup. See the [warmup schedule](https://sendgrid.com/docs/API_Reference/Web_API_v3/IP_Management/ip_warmup_schedule.html) for more details on how SendGrid limits your email traffic for IPs in warmup.
 
     For more general information about warming up IPs, please see our [Classroom](https://sendgrid.com/docs/Classroom/Deliver/Delivery_Introduction/warming_up_ips.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//ips/warmup
   tags: Email,Ips, Warmup
   properties:
@@ -1548,8 +1546,8 @@ apis:
     SendGrid can automatically warm up dedicated IP addresses by limiting the amount of mail that can be sent through them per hour, with the limit determined by how long the IP address has been in warmup. See the [warmup schedule](https://sendgrid.com/docs/API_Reference/Web_API_v3/IP_Management/ip_warmup_schedule.html) for more details on how SendGrid limits your email traffic for IPs in warmup.
 
     For more general information about warming up IPs, please see our [Classroom](https://sendgrid.com/docs/Classroom/Deliver/Delivery_Introduction/warming_up_ips.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//ips/warmup
   tags: Email,Ips, Warmup
   properties:
@@ -1563,8 +1561,8 @@ apis:
     SendGrid can automatically warm up dedicated IP addresses by limiting the amount of mail that can be sent through them per hour, with the limit determined by how long the IP address has been in warmup. See the [warmup schedule](https://sendgrid.com/docs/API_Reference/Web_API_v3/IP_Management/ip_warmup_schedule.html) for more details on how SendGrid limits your email traffic for IPs in warmup.
 
     For more general information about warming up IPs, please see our [Classroom](https://sendgrid.com/docs/Classroom/Deliver/Delivery_Introduction/warming_up_ips.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//ips/warmup/{ip_address}
   tags: Email,Ips, Warmup, Ip, Address
   properties:
@@ -1578,8 +1576,8 @@ apis:
     SendGrid can automatically warm up dedicated IP addresses by limiting the amount of mail that can be sent through them per hour, with the limit determined by how long the IP address has been in warmup. See the [warmup schedule](https://sendgrid.com/docs/API_Reference/Web_API_v3/IP_Management/ip_warmup_schedule.html) for more details on how SendGrid limits your email traffic for IPs in warmup.
 
     For more general information about warming up IPs, please see our [Classroom](https://sendgrid.com/docs/Classroom/Deliver/Delivery_Introduction/warming_up_ips.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//ips/warmup/{ip_address}
   tags: Email,Ips, Warmup, Ip, Address
   properties:
@@ -1593,8 +1591,8 @@ apis:
     The same IP address can be added to multiple IP pools.
 
     A single IP address or a range of IP addresses may be dedicated to an account in order to send email for multiple domains. The reputation of this IP is based on the aggregate performance of all the senders who use it.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//ips/{ip_address}
   tags: Email,Ips, Ip, Address
   properties:
@@ -1609,8 +1607,8 @@ apis:
     10 minutes before the schedule date, you can cancel all of the mail/send requests
     that have this batch ID by calling the Cancel Scheduled Send endpoint. \n\nMore
     Information:\n\n* [Scheduling Parameters > Batch ID](https://sendgrid.com/docs/API_Reference/SMTP_API/scheduling_parameters.html)"
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//mail/batch
   tags: Email,Mail, Batch
   properties:
@@ -1624,8 +1622,8 @@ apis:
     before the schedule date, you can cancel all of the mail/send requests that have
     this batch ID by calling the Cancel Scheduled Send endpoint. \n\nMore Information:\n\n*
     [Scheduling Parameters > Batch ID](https://sendgrid.com/docs/API_Reference/SMTP_API/scheduling_parameters.html)"
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//mail/batch/{batch_id}
   tags: Email,Mail, Batch, Batch
   properties:
@@ -1645,8 +1643,8 @@ apis:
     [PHP](https://github.com/sendgrid/sendgrid-php), [Python](https://github.com/sendgrid/sendgrid-python),
     and [Ruby](https://github.com/sendgrid/sendgrid-ruby).**\n\n\nFor more detailed
     information about how to use the v3 Mail Send endpoint, please visit our [Classroom](https://sendgrid.com/docs/Classroom/Send/v3_Mail_Send/index.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//mail/send
   tags: Email,Mail, Send
   properties:
@@ -1658,8 +1656,8 @@ apis:
     settings allow you to tell SendGrid specific things to do to every email that
     you send to your recipients over SendGrid\u2019s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
     or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//mail_settings
   tags: Email,Mail, Settings
   properties:
@@ -1679,8 +1677,8 @@ apis:
     you to tell SendGrid specific things to do to every email that you send to your
     recipients over SendGrid\u2019s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
     or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//mail_settings/address_whitelist
   tags: Email,Mail, Settings, Address, Whitelist
   properties:
@@ -1700,8 +1698,8 @@ apis:
     things to do to every email that you send to your recipients over SendGrid\u2019s
     [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP
     Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//mail_settings/address_whitelist
   tags: Email,Mail, Settings, Address, Whitelist
   properties:
@@ -1718,8 +1716,8 @@ apis:
     SendGrid specific things to do to every email that you send to your recipients
     over SendGrid\u2019s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
     or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//mail_settings/bcc
   tags: Email,Mail, Settings, Bcc
   properties:
@@ -1738,8 +1736,8 @@ apis:
     SendGrid specific things to do to every email that you send to your recipients
     over SendGrid\u2019s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
     or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//mail_settings/bcc
   tags: Email,Mail, Settings, Bcc
   properties:
@@ -1753,8 +1751,8 @@ apis:
     tell SendGrid specific things to do to every email that you send to your recipients
     over SendGrid\u2019s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
     or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//mail_settings/bounce_purge
   tags: Email,Mail, Settings, Bounce, Purge
   properties:
@@ -1770,8 +1768,8 @@ apis:
     tell SendGrid specific things to do to every email that you send to your recipients
     over SendGrid\u2019s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
     or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//mail_settings/bounce_purge
   tags: Email,Mail, Settings, Bounce, Purge
   properties:
@@ -1786,8 +1784,8 @@ apis:
     you to tell SendGrid specific things to do to every email that you send to your
     recipients over SendGrid\u2019s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
     or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//mail_settings/footer
   tags: Email,Mail, Settings, Footer
   properties:
@@ -1804,8 +1802,8 @@ apis:
     you to tell SendGrid specific things to do to every email that you send to your
     recipients over SendGrid\u2019s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
     or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//mail_settings/footer
   tags: Email,Mail, Settings, Footer
   properties:
@@ -1819,8 +1817,8 @@ apis:
     specific things to do to every email that you send to your recipients over SendGrid\u2019s
     [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP
     Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//mail_settings/forward_bounce
   tags: Email,Mail, Settings, Forward, Bounce
   properties:
@@ -1836,8 +1834,8 @@ apis:
     specific things to do to every email that you send to your recipients over SendGrid\u2019s
     [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP
     Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//mail_settings/forward_bounce
   tags: Email,Mail, Settings, Forward, Bounce
   properties:
@@ -1851,8 +1849,8 @@ apis:
     tell SendGrid specific things to do to every email that you send to your recipients
     over SendGrid\u2019s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
     or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//mail_settings/forward_spam
   tags: Email,Mail, Settings, Forward, Spam
   properties:
@@ -1868,8 +1866,8 @@ apis:
     tell SendGrid specific things to do to every email that you send to your recipients
     over SendGrid\u2019s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
     or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//mail_settings/forward_spam
   tags: Email,Mail, Settings, Forward, Spam
   properties:
@@ -1883,8 +1881,8 @@ apis:
     tell SendGrid specific things to do to every email that you send to your recipients
     over SendGrid\u2019s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
     or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//mail_settings/plain_content
   tags: Email,Mail, Settings, Plain, Content
   properties:
@@ -1900,8 +1898,8 @@ apis:
     tell SendGrid specific things to do to every email that you send to your recipients
     over SendGrid\u2019s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
     or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//mail_settings/plain_content
   tags: Email,Mail, Settings, Plain, Content
   properties:
@@ -1915,8 +1913,8 @@ apis:
     specific things to do to every email that you send to your recipients over SendGrid\u2019s
     [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP
     Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//mail_settings/spam_check
   tags: Email,Mail, Settings, Spam, Check
   properties:
@@ -1932,8 +1930,8 @@ apis:
     specific things to do to every email that you send to your recipients over SendGrid\u2019s
     [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP
     Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//mail_settings/spam_check
   tags: Email,Mail, Settings, Spam, Check
   properties:
@@ -1949,8 +1947,8 @@ apis:
     formatted messages.\n\nMail settings allow you to tell SendGrid specific things
     to do to every email that you send to your recipients over SendGrid\u2019s [Web
     API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//mail_settings/template
   tags: Email,Mail, Settings, Template
   properties:
@@ -1968,8 +1966,8 @@ apis:
     formatted messages.\n\nMail settings allow you to tell SendGrid specific things
     to do to every email that you send to your recipients over SendGrid\u2019s [Web
     API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//mail_settings/template
   tags: Email,Mail, Settings, Template
   properties:
@@ -1983,8 +1981,8 @@ apis:
     **We only store up to 7 days of email activity in our database.** By default, 500 items will be returned per request via the Advanced Stats API endpoints.
 
     Advanced Stats provide a more in-depth view of your email statistics and the actions taken by your recipients. You can segment these statistics by geographic location, device type, client type, browser, and mailbox provider. For more information about statistics, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/index.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//mailbox_providers/stats
   tags: Email,Mailbox, Provers, Stats
   properties:
@@ -1996,8 +1994,8 @@ apis:
     **This endpoint allows you to retrieve a list of all partner settings that you can enable.**
 
     Our partner settings allow you to integrate your SendGrid account with our partners to increase your SendGrid experience and functionality. For more information about our partners, and how you can begin integrating with them, please visit our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/partners.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//partner_settings
   tags: Email,Partner, Settings
   properties:
@@ -2013,8 +2011,8 @@ apis:
     Our partner settings allow you to integrate your SendGrid account with our partners to increase your SendGrid experience and functionality. For more information about our partners, and how you can begin integrating with them, please visit our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/partners.html).
 
     By integrating with New Relic, you can send your SendGrid email statistics to your New Relic Dashboard. If you enable this setting, your stats will be sent to New Relic every 5 minutes. You will need your New Relic License Key to enable this setting. For more information, please see our [Classroom](https://sendgrid.com/docs/Classroom/Track/Collecting_Data/new_relic.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//partner_settings/new_relic
   tags: Email,Partner, Settings, New, Relic
   properties:
@@ -2030,8 +2028,8 @@ apis:
     Our partner settings allow you to integrate your SendGrid account with our partners to increase your SendGrid experience and functionality. For more information about our partners, and how you can begin integrating with them, please visit our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/partners.html).
 
     By integrating with New Relic, you can send your SendGrid email statistics to your New Relic Dashboard. If you enable this setting, your stats will be sent to New Relic every 5 minutes. You will need your New Relic License Key to enable this setting. For more information, please see our [Classroom](https://sendgrid.com/docs/Classroom/Track/Collecting_Data/new_relic.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//partner_settings/new_relic
   tags: Email,Partner, Settings, New, Relic
   properties:
@@ -2047,8 +2045,8 @@ apis:
     they are able to access. For a more detailed explanation of how you can use API
     Key permissios, please visit our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/api_keys.html#-API-Key-Permissions)
     or [Classroom](https://sendgrid.com/docs/Classroom/Basics/API/api_key_permissions.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//scopes
   tags: Email,Scopes
   properties:
@@ -2064,8 +2062,8 @@ apis:
     **Note:** The Response Header's 'link' parameter will include pagination info. For example:
 
     link: ```<https://api.sendgrid.com/v3/scopes/requests?limit=10&offset=0>; rel="first"; title="1", <https://api.sendgrid.com/v3/scopes/requests?limit=10&offset=10>; rel="last"; title="2", <https://api.sendgrid.com/v3/scopes/requests?limit=10&offset=0>; rel="prev"; title="1"```
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//scopes/requests
   tags: Email,Scopes, Requests
   properties:
@@ -2079,8 +2077,8 @@ apis:
     This endpoint allows you to deny an attempt to access your account.
 
     **Note:** Only teammate admins may delete a teammate's access request.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//scopes/requests/{request_id}
   tags: Email,Scopes, Requests, Request
   properties:
@@ -2092,8 +2090,8 @@ apis:
   x-api-slug: sendgrid
   description: "This endpoint allows you to approve an access attempt.\n\n**Note:**
     Only teammate admins may approve another teammate\u2019s access request."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//scopes/requests/{request_id}/approve
   tags: Email,Scopes, Requests, Request, , Approve
   properties:
@@ -2107,8 +2105,8 @@ apis:
     **This endpoint allows you to retrieve a list of all sender identities that have been created for your account.**
 
     Sender Identities are required to be verified before use. If your domain has been whitelabeled it will auto verify on creation. Otherwise an email will be sent to the `from.email`.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//senders
   tags: Email,Senders
   properties:
@@ -2124,8 +2122,8 @@ apis:
     *You may create up to 100 unique sender identities.*
 
     Sender Identities are required to be verified before use. If your domain has been whitelabeled it will auto verify on creation. Otherwise an email will be sent to the `from.email`.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//senders
   tags: Email,Senders
   properties:
@@ -2137,8 +2135,8 @@ apis:
     **This endoint allows you to delete one of your sender identities.**
 
     Sender Identities are required to be verified before use. If your domain has been whitelabeled it will auto verify on creation. Otherwise an email will be sent to the `from.email`.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//senders/{sender_id}
   tags: Email,Senders, Sender
   properties:
@@ -2152,8 +2150,8 @@ apis:
     **This endpoint allows you to retrieve a specific sender identity.**
 
     Sender Identities are required to be verified before use. If your domain has been whitelabeled it will auto verify on creation. Otherwise an email will be sent to the `from.email`.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//senders/{sender_id}
   tags: Email,Senders, Sender
   properties:
@@ -2169,8 +2167,8 @@ apis:
     Updates to `from.email` require re-verification. If your domain has been whitelabeled it will auto verify on creation. Otherwise an email will be sent to the `from.email`.
 
     Partial updates are allowed, but fields that are marked as "required" in the POST (create) endpoint must not be nil if that field is included in the PATCH request.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//senders/{sender_id}
   tags: Email,Senders, Sender
   properties:
@@ -2182,8 +2180,8 @@ apis:
     **This enpdoint allows you to resend a sender identity verification email.**
 
     Sender Identities are required to be verified before use. If your domain has been whitelabeled it will auto verify on creation. Otherwise an email will be sent to the `from.email`.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//senders/{sender_id}/resend_verification
   tags: Email,Senders, Sender, , Resend, Verification
   properties:
@@ -2197,8 +2195,8 @@ apis:
     **This endpoint allows you to retrieve all of your global email statistics between a given date range.**
 
     Parent accounts will see aggregated stats for their account and all subuser accounts. Subuser accounts will only see their own stats.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//stats
   tags: Email,Stats
   properties:
@@ -2213,8 +2211,8 @@ apis:
 
     * [User Guide > Subusers](https://sendgrid.com/docs/User_Guide/Settings/Subusers/index.html)
     * [Classroom > How do I add more subusers to my account?](https://sendgrid.com/docs/Classroom/Basics/Account/how_do_i_add_more_subusers_to_my_account.html)
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//subusers
   tags: Email,Subusers
   properties:
@@ -2231,8 +2229,8 @@ apis:
 
     * [User Guide > Subusers](https://sendgrid.com/docs/User_Guide/Settings/Subusers/index.html)
     * [Classroom > How do I add more subusers to my account?](https://sendgrid.com/docs/Classroom/Basics/Account/how_do_i_add_more_subusers_to_my_account.html)
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//subusers
   tags: Email,Subusers
   properties:
@@ -2244,8 +2242,8 @@ apis:
     Subuser sender reputations give a good idea how well a sender is doing with regards to how recipients and recipient servers react to the mail that is being received. When a bounce, spam report, or other negative action happens on a sent email, it will effect your sender rating.
 
     This endpoint allows you to request the reputations for your subusers.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//subusers/reputations
   tags: Email,Subusers, Reputations
   properties:
@@ -2263,8 +2261,8 @@ apis:
     While you can always view the statistics for all email activity on your account, subuser statistics enable you to view specific segments of your stats. Emails sent, bounces, and spam reports are always tracked for subusers. Unsubscribes, clicks, and opens are tracked if you have enabled the required settings.
 
     For more information, see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/subuser.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//subusers/stats
   tags: Email,Subusers, Stats
   properties:
@@ -2283,8 +2281,8 @@ apis:
     `bounce_drops`, `deferred`, `invalid_emails`, `processed`, `spam_report_drops`, `spam_reports`, or `unsubscribe_drops`.
 
     For more information, see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/subuser.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//subusers/stats/monthly
   tags: Email,Subusers, Stats, Monthly
   properties:
@@ -2301,8 +2299,8 @@ apis:
     While you can always view the statistics for all email activity on your account, subuser statistics enable you to view specific segments of your stats. Emails sent, bounces, and spam reports are always tracked for subusers. Unsubscribes, clicks, and opens are tracked if you have enabled the required settings.
 
     For more information, see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/subuser.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//subusers/stats/sums
   tags: Email,Subusers, Stats, Sums
   properties:
@@ -2319,8 +2317,8 @@ apis:
 
     * [User Guide > Subusers](https://sendgrid.com/docs/User_Guide/Settings/Subusers/index.html)
     * [Classroom > How do I add more subusers to my account?](https://sendgrid.com/docs/Classroom/Basics/Account/how_do_i_add_more_subusers_to_my_account.html)
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//subusers/{subuser_name}
   tags: Email,Subusers, Subuser, Name
   properties:
@@ -2335,8 +2333,8 @@ apis:
 
     * [User Guide > Subusers](https://sendgrid.com/docs/User_Guide/Settings/Subusers/index.html)
     * [Classroom > How do I add more subusers to my account?](https://sendgrid.com/docs/Classroom/Basics/Account/how_do_i_add_more_subusers_to_my_account.html)
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//subusers/{subuser_name}
   tags: Email,Subusers, Subuser, Name
   properties:
@@ -2349,8 +2347,8 @@ apis:
     but each subuser can have their own, or multiple, IP addresses as well. \n\nMore
     information:\n\n* [How to request more IPs](https://sendgrid.com/docs/Classroom/Basics/Account/adding_an_additional_dedicated_ip_to_your_account.html)\n*
     [IPs can be whitelabeled](https://sendgrid.com/docs/User_Guide/Settings/Whitelabel/ips.html)"
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//subusers/{subuser_name}/ips
   tags: Email,Subusers, Subuser, Name, Ips
   properties:
@@ -2360,8 +2358,8 @@ apis:
   x-api-slug: sendgrid
   description: Subuser monitor settings allow you to receive a sample of an outgoing
     message by a specific customer at a specific frequency of emails.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//subusers/{subuser_name}/monitor
   tags: Email,Subusers, Subuser, Name, Monitor
   properties:
@@ -2371,8 +2369,8 @@ apis:
   x-api-slug: sendgrid
   description: Subuser monitor settings allow you to receive a sample of an outgoing
     message by a specific customer at a specific frequency of emails.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//subusers/{subuser_name}/monitor
   tags: Email,Subusers, Subuser, Name, Monitor
   properties:
@@ -2384,8 +2382,8 @@ apis:
   x-api-slug: sendgrid
   description: Subuser monitor settings allow you to receive a sample of an outgoing
     message by a specific customer at a specific frequency of emails.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//subusers/{subuser_name}/monitor
   tags: Email,Subusers, Subuser, Name, Monitor
   properties:
@@ -2395,8 +2393,8 @@ apis:
   x-api-slug: sendgrid
   description: Subuser monitor settings allow you to receive a sample of an outgoing
     message by a specific customer at a specific frequency of emails.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//subusers/{subuser_name}/monitor
   tags: Email,Subusers, Subuser, Name, Monitor
   properties:
@@ -2413,8 +2411,8 @@ apis:
     `bounce_drops`, `deferred`, `invalid_emails`, `processed`, `spam_report_drops`, `spam_reports`, or `unsubscribe_drops`.
 
     For more information, see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/subuser.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//subusers/{subuser_name}/stats/monthly
   tags: Email,Subusers, Subuser, Name, Stats, Monthly
   properties:
@@ -2434,8 +2432,8 @@ apis:
     added to a blacklist or blocked by an ISP, or if the message content is flagged
     by a filter on the receiving server.\n\nFor more information, please see our [User
     Guide](https://sendgrid.com/docs/User_Guide/Suppressions/blocks.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//suppression/blocks
   tags: Email,Suppression, Blocks
   properties:
@@ -2449,8 +2447,8 @@ apis:
     There are several causes for [blocked](https://sendgrid.com/docs/Glossary/blocks.html) emails: for example, your mail server IP address is on an ISP blacklist, or blocked by an ISP, or if the receiving server flags the message content.
 
     For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/blocks.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//suppression/blocks
   tags: Email,Suppression, Blocks
   properties:
@@ -2464,8 +2462,8 @@ apis:
     [Blocks](https://sendgrid.com/docs/Glossary/blocks.html) happen when your message was rejected for a reason related to the message, not the recipient address. This can happen when your mail server IP address has been added to a blacklist or blocked by an ISP, or if the message content is flagged by a filter on the receiving server.
 
     For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/blocks.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//suppression/blocks/{email}
   tags: Email,Suppression, Blocks, Email
   properties:
@@ -2479,8 +2477,8 @@ apis:
     [Blocks](https://sendgrid.com/docs/Glossary/blocks.html) happen when your message was rejected for a reason related to the message, not the recipient address. This can happen when your mail server IP address has been added to a blacklist or blocked by an ISP, or if the message content is flagged by a filter on the receiving server.
 
     For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/blocks.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//suppression/blocks/{email}
   tags: Email,Suppression, Blocks, Email
   properties:
@@ -2496,8 +2494,8 @@ apis:
     [Classroom > List Scrubbing Guide](https://sendgrid.com/docs/Classroom/Deliver/list_scrubbing.html)\n\nNote:
     the `delete_all` and `emails` parameters should be used independently of each
     other as they have different purposes."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//suppression/bounces
   tags: Email,Suppression, Bounces
   properties:
@@ -2509,8 +2507,8 @@ apis:
     bounced email is when the message is undeliverable and then returned to the server
     that sent it.  \n\nFor more information see: \n\n* [User Guide > Bounces](https://sendgrid.com/docs/User_Guide/Suppressions/bounces.html)
     for more information\n* [Glossary > Bounces](https://sendgrid.com/docs/Glossary/Bounces.html)"
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//suppression/bounces
   tags: Email,Suppression, Bounces
   properties:
@@ -2527,8 +2525,8 @@ apis:
     > Bounces](https://sendgrid.com/docs/User_Guide/Suppressions/bounces.html) for
     more information\n* [Glossary > Bounces](https://sendgrid.com/docs/Glossary/Bounces.html)\n*
     [Classroom > List Scrubbing Guide](https://sendgrid.com/docs/Classroom/Deliver/list_scrubbing.html)"
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//suppression/bounces/{email}
   tags: Email,Suppression, Bounces, Email
   properties:
@@ -2542,8 +2540,8 @@ apis:
     Guide > Bounces](https://sendgrid.com/docs/User_Guide/Suppressions/bounces.html)
     for more information\n* [Glossary > Bounces](https://sendgrid.com/docs/Glossary/Bounces.html)\n*
     [Classroom > List Scrubbing Guide](https://sendgrid.com/docs/Classroom/Deliver/list_scrubbing.html)"
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//suppression/bounces/{email}
   tags: Email,Suppression, Bounces, Email
   properties:
@@ -2564,8 +2562,8 @@ apis:
     sign or addresses that include certain special characters and/or spaces. This
     response can come from our own server or the recipient mail server.\n\nFor more
     information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/invalid_emails.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//suppression/invalid_emails
   tags: Email,Suppression, Inval, Emails
   properties:
@@ -2580,8 +2578,8 @@ apis:
     addresses without the \u201C@\u201D sign or addresses that include certain special
     characters and/or spaces. This response can come from our own server or the recipient
     mail server.\n\nFor more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/invalid_emails.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//suppression/invalid_emails
   tags: Email,Suppression, Inval, Emails
   properties:
@@ -2599,8 +2597,8 @@ apis:
     that include certain special characters and/or spaces. This response can come
     from our own server or the recipient mail server.\n\nFor more information, please
     see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/invalid_emails.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//suppression/invalid_emails/{email}
   tags: Email,Suppression, Inval, Emails, Email
   properties:
@@ -2615,8 +2613,8 @@ apis:
     the \u201C@\u201D sign or addresses that include certain special characters and/or
     spaces. This response can come from our own server or the recipient mail server.\n\nFor
     more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/invalid_emails.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//suppression/invalid_emails/{email}
   tags: Email,Suppression, Inval, Emails, Email
   properties:
@@ -2634,8 +2632,8 @@ apis:
     indicates that they think your email is [spam](https://sendgrid.com/docs/Glossary/spam.html)
     and then their email provider reports this to SendGrid.\n\nFor more information,
     please see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/spam_reports.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//suppression/spam_reports
   tags: Email,Suppression, Spam, Reports
   properties:
@@ -2649,8 +2647,8 @@ apis:
     [Spam reports](https://sendgrid.com/docs/Glossary/spam_reports.html) happen when a recipient indicates that they think your email is [spam](https://sendgrid.com/docs/Glossary/spam.html) and then their email provider reports this to SendGrid.
 
     For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/spam_reports.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//suppression/spam_reports
   tags: Email,Suppression, Spam, Reports
   properties:
@@ -2666,8 +2664,8 @@ apis:
     [Spam reports](https://sendgrid.com/docs/Glossary/spam_reports.html) happen when a recipient indicates that they think your email is [spam](https://sendgrid.com/docs/Glossary/spam.html) and then their email provider reports this to SendGrid.
 
     For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/spam_reports.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//suppression/spam_reports/{email}
   tags: Email,Suppression, Spam, Reports, Email
   properties:
@@ -2681,8 +2679,8 @@ apis:
     [Spam reports](https://sendgrid.com/docs/Glossary/spam_reports.html) happen when a recipient indicates that they think your email is [spam](https://sendgrid.com/docs/Glossary/spam.html) and then their email provider reports this to SendGrid.
 
     For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/spam_reports.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//suppression/spam_reports/{email}
   tags: Email,Suppression, Spam, Reports, Email
   properties:
@@ -2696,8 +2694,8 @@ apis:
     **This endpoint allows you to retrieve a list of all email address that are globally suppressed.**
 
     A global suppression (or global unsubscribe) is an email address of a recipient who does not want to receive any of your messages. A globally suppressed recipient will be removed from any email you send. For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/global_unsubscribes.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//suppression/unsubscribes
   tags: Email,Suppression, Unsubscribes
   properties:
@@ -2711,8 +2709,8 @@ apis:
     **Note:** The Response Header will include pagination info. For example:
 
     link: ```<https://api.sendgrid.com/v3/teammates?limit=10&offset=0>; rel="first"; title="1", <https://api.sendgrid.com/v3/teammates?limit=10&offset=10>; rel="last"; title="2", <https://api.sendgrid.com/v3/teammates?limit=10&offset=0>; rel="prev"; title="1"```
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//teammates
   tags: Email,Teammates
   properties:
@@ -2728,8 +2726,8 @@ apis:
     **Note:** A teammate invite will expire after 7 days, but you may resend the invite at any time to reset the expiration date.
 
     Essentials, [Legacy Lite](https://sendgrid.com/docs/Classroom/Basics/Billing/legacy_lite_plan.html), and Free Trial users may create up to one teammate per account. There are no limits for how many teammates a Pro or higher account may create.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//teammates
   tags: Email,Teammates
   properties:
@@ -2741,8 +2739,8 @@ apis:
     This endpoint allows you to retrieve a list of all pending teammate invitations.
 
     **Note:** Each teammate invitation is valid for 7 days. Users may resend the invite to refresh the expiration date.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//teammates/pending
   tags: Email,Teammates, Pending
   properties:
@@ -2751,8 +2749,8 @@ apis:
 - name: SendGrid Delete Teammates Pending Token
   x-api-slug: sendgrid
   description: This endpoint allows you to delete a pending teammate invite.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//teammates/pending/{token}
   tags: Email,Teammates, Pending, Token
   properties:
@@ -2764,8 +2762,8 @@ apis:
     This endpoint allows you to resend a teammate invite.
 
     **Note:** Teammate invitations will expire after 7 days. Resending an invite will reset the expiration date.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//teammates/pending/{token}/resend
   tags: Email,Teammates, Pending, Token, Resend
   properties:
@@ -2777,8 +2775,8 @@ apis:
     This endpoint allows you to delete a teammate.
 
     **Only the parent user or an admin teammate can delete another teammate.**
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//teammates/{username}
   tags: Email,Teammates, Username
   properties:
@@ -2787,8 +2785,8 @@ apis:
 - name: SendGrid Get Teammates Username
   x-api-slug: sendgrid
   description: This endpoint allows you to retrieve a specific teammate by username.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//teammates/{username}
   tags: Email,Teammates, Username
   properties:
@@ -2802,8 +2800,8 @@ apis:
     a teammate should have.\n\n**Only the parent user or other admin teammates can
     update another teammate\u2019s permissions.**\n\n**Admin users can only update
     permissions.**"
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//teammates/{username}
   tags: Email,Teammates, Username
   properties:
@@ -2817,8 +2815,8 @@ apis:
     Each user can create up to 300 different transactional templates. Transactional templates are specific to accounts and subusers. Templates created on a parent account will not be accessible from the subuser accounts.
 
     Transactional templates are templates created specifically for transactional email and are not to be confused with [Marketing Campaigns templates](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/templates.html). For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//templates
   tags: Email,Templates
   properties:
@@ -2834,8 +2832,8 @@ apis:
     Each user can create up to 300 different transactional templates. Transactional templates are specific to accounts and subusers. Templates created on a parent account will not be accessible from the subuser accounts.
 
     Transactional templates are templates created specifically for transactional email and are not to be confused with [Marketing Campaigns templates](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/templates.html). For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//templates
   tags: Email,Templates
   properties:
@@ -2849,8 +2847,8 @@ apis:
     Each user can create up to 300 different transactional templates. Transactional templates are specific to accounts and subusers. Templates created on a parent account will not be accessible from the subuser accounts.
 
     Transactional templates are templates created specifically for transactional email and are not to be confused with [Marketing Campaigns templates](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/templates.html). For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//templates/{template_id}
   tags: Email,Templates, Template
   properties:
@@ -2864,8 +2862,8 @@ apis:
     Each user can create up to 300 different transactional templates. Transactional templates are specific to accounts and subusers. Templates created on a parent account will not be accessible from the subuser accounts.
 
     Transactional templates are templates created specifically for transactional email and are not to be confused with [Marketing Campaigns templates](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/templates.html). For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//templates/{template_id}
   tags: Email,Templates, Template
   properties:
@@ -2881,8 +2879,8 @@ apis:
     Each user can create up to 300 different transactional templates. Transactional templates are specific to accounts and subusers. Templates created on a parent account will not be accessible from the subuser accounts.
 
     Transactional templates are templates created specifically for transactional email and are not to be confused with [Marketing Campaigns templates](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/templates.html). For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//templates/{template_id}
   tags: Email,Templates, Template
   properties:
@@ -2896,8 +2894,8 @@ apis:
     Each transactional template can have multiple versions, each version with its own subject and content. Each user can have up to 300 versions across across all templates.
 
     For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//templates/{template_id}/versions
   tags: Email,Templates, Template, , Versions
   properties:
@@ -2917,8 +2915,8 @@ apis:
     |---|---|---|
     | template_id | string | The ID of the original template |
     | version_id | string | The ID of the template version |
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//templates/{template_id}/versions/{version_id}
   tags: Email,Templates, Template, , Versions, Version
   properties:
@@ -2938,8 +2936,8 @@ apis:
     |---|---|---|
     | template_id | string | The ID of the original template |
     | version_id | string |  The ID of the template version |
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//templates/{template_id}/versions/{version_id}
   tags: Email,Templates, Template, , Versions, Version
   properties:
@@ -2961,8 +2959,8 @@ apis:
     |---|---|---|
     | template_id | string | The ID of the original template |
     | version_id | string | The ID of the template version |
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//templates/{template_id}/versions/{version_id}
   tags: Email,Templates, Template, , Versions, Version
   properties:
@@ -2983,8 +2981,8 @@ apis:
     |---|---|---|
     | template_id | string | The ID of the original template |
     | version_id | string |  The ID of the template version |
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//templates/{template_id}/versions/{version_id}/activate
   tags: Email,Templates, Template, , Versions, Version, , Activate
   properties:
@@ -2998,8 +2996,8 @@ apis:
     You can track a variety of the actions your recipients may take when interacting with your emails including opening your emails, clicking on links in your emails, and subscribing to (or unsubscribing from) your emails.
 
     For more information about tracking, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/tracking.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//tracking_settings
   tags: Email,Tracking, Settings
   properties:
@@ -3015,8 +3013,8 @@ apis:
     You can track a variety of the actions your recipients may take when interacting with your emails including opening your emails, clicking on links in your emails, and subscribing to (or unsubscribing from) your emails.
 
     For more information about tracking, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/tracking.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//tracking_settings/click
   tags: Email,Tracking, Settings, Click
   properties:
@@ -3032,8 +3030,8 @@ apis:
     You can track a variety of the actions your recipients may take when interacting with your emails including opening your emails, clicking on links in your emails, and subscribing to (or unsubscribing from) your emails.
 
     For more information about tracking, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/tracking.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//tracking_settings/click
   tags: Email,Tracking, Settings, Click
   properties:
@@ -3051,8 +3049,8 @@ apis:
     your emails including opening your emails, clicking on links in your emails, and
     subscribing to (or unsubscribing from) your emails.\n\nFor more information about
     tracking, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/tracking.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//tracking_settings/google_analytics
   tags: Email,Tracking, Settings, Google, Analytics
   properties:
@@ -3072,8 +3070,8 @@ apis:
     your emails including opening your emails, clicking on links in your emails, and
     subscribing to (or unsubscribing from) your emails.\n\nFor more information about
     tracking, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/tracking.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//tracking_settings/google_analytics
   tags: Email,Tracking, Settings, Google, Analytics
   properties:
@@ -3091,8 +3089,8 @@ apis:
     including opening your emails, clicking on links in your emails, and subscribing
     to (or unsubscribing from) your emails.\n\nFor more information about tracking,
     please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/tracking.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//tracking_settings/open
   tags: Email,Tracking, Settings, Open
   properties:
@@ -3112,8 +3110,8 @@ apis:
     including opening your emails, clicking on links in your emails, and subscribing
     to (or unsubscribing from) your emails.\n\nFor more information about tracking,
     please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/tracking.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//tracking_settings/open
   tags: Email,Tracking, Settings, Open
   properties:
@@ -3129,8 +3127,8 @@ apis:
     You can track a variety of the actions your recipients may take when interacting with your emails including opening your emails, clicking on links in your emails, and subscribing to (or unsubscribing from) your emails.
 
     For more information about tracking, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/tracking.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//tracking_settings/subscription
   tags: Email,Tracking, Settings, Subscription
   properties:
@@ -3148,8 +3146,8 @@ apis:
     You can track a variety of the actions your recipients may take when interacting with your emails including opening your emails, clicking on links in your emails, and subscribing to (or unsubscribing from) your emails.
 
     For more information about tracking, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/tracking.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//tracking_settings/subscription
   tags: Email,Tracking, Settings, Subscription
   properties:
@@ -3167,8 +3165,8 @@ apis:
     For more information about your user profile:
 
     * [SendGrid Account Settings](https://sendgrid.com/docs/User_Guide/Settings/account.html)
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//user/account
   tags: Email,User, Account
   properties:
@@ -3180,8 +3178,8 @@ apis:
     **This endpoint allows you to retrieve the current credit balance for your account.**
 
     Your monthly credit allotment limits the number of emails you may send before incurring overage charges. For more information about credits and billing, please visit our [Clssroom](https://sendgrid.com/docs/Classroom/Basics/Billing/billing_info_and_faqs.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//user/credits
   tags: Email,User, Credits
   properties:
@@ -3199,8 +3197,8 @@ apis:
     For more information about your user profile:
 
     * [SendGrid Account Settings](https://sendgrid.com/docs/User_Guide/Settings/account.html)
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//user/email
   tags: Email,User, Email
   properties:
@@ -3216,8 +3214,8 @@ apis:
     For more information about your user profile:
 
     * [SendGrid Account Settings](https://sendgrid.com/docs/User_Guide/Settings/account.html)
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//user/email
   tags: Email,User, Email
   properties:
@@ -3233,8 +3231,8 @@ apis:
     For more information about your user profile:
 
     * [SendGrid Account Settings](https://sendgrid.com/docs/User_Guide/Settings/account.html)
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//user/password
   tags: Email,User, Password
   properties:
@@ -3248,8 +3246,8 @@ apis:
     For more information about your user profile:
 
     * [SendGrid Account Settings](https://sendgrid.com/docs/User_Guide/Settings/account.html)
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//user/profile
   tags: Email,User, Profile
   properties:
@@ -3267,8 +3265,8 @@ apis:
     * [SendGrid Account Settings](https://sendgrid.com/docs/User_Guide/Settings/account.html)
 
     It should be noted that any one or more of the parameters can be updated via the PATCH /user/profile endpoint. The only requirement is that you include at least one when you PATCH.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//user/profile
   tags: Email,User, Profile
   properties:
@@ -3280,8 +3278,8 @@ apis:
     **This endpoint allows you to retrieve all cancel/paused scheduled send information.**
 
     The Cancel Scheduled Sends feature allows the customer to cancel a scheduled send based on a Batch ID included in the SMTPAPI header. Scheduled sends cancelled less than 10 minutes before the scheduled time are not guaranteed to be cancelled.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//user/scheduled_sends
   tags: Email,User, Scheduled, Sends
   properties:
@@ -3296,8 +3294,8 @@ apis:
     be returned.
 
     The Cancel Scheduled Sends feature allows the customer to cancel a scheduled send based on a Batch ID included in the SMTPAPI header. Scheduled sends cancelled less than 10 minutes before the scheduled time are not guaranteed to be cancelled.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//user/scheduled_sends
   tags: Email,User, Scheduled, Sends
   properties:
@@ -3309,8 +3307,8 @@ apis:
     **This endpoint allows you to delete the cancellation/pause of a scheduled send.**
 
     The Cancel Scheduled Sends feature allows the customer to cancel a scheduled send based on a Batch ID included in the SMTPAPI header. Scheduled sends cancelled less than 10 minutes before the scheduled time are not guaranteed to be cancelled.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//user/scheduled_sends/{batch_id}
   tags: Email,User, Scheduled, Sends, Batch
   properties:
@@ -3322,8 +3320,8 @@ apis:
     **This endpoint allows you to retrieve the cancel/paused scheduled send information for a specific `batch_id`.**
 
     The Cancel Scheduled Sends feature allows the customer to cancel a scheduled send based on a Batch ID included in the SMTPAPI header. Scheduled sends cancelled less than 10 minutes before the scheduled time are not guaranteed to be cancelled.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//user/scheduled_sends/{batch_id}
   tags: Email,User, Scheduled, Sends, Batch
   properties:
@@ -3335,8 +3333,8 @@ apis:
     **This endpoint allows you to update the status of a scheduled send for the given `batch_id`.**
 
     The Cancel Scheduled Sends feature allows the customer to cancel a scheduled send based on a Batch ID included in the SMTPAPI header. Scheduled sends cancelled less than 10 minutes before the scheduled time are not guaranteed to be cancelled.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//user/scheduled_sends/{batch_id}
   tags: Email,User, Scheduled, Sends, Batch
   properties:
@@ -3351,8 +3349,8 @@ apis:
     and the recipient does not support TLS or have a valid certificate, we drop the
     message and send a block event with \u201CTLS required but not supported\u201D
     as the description."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//user/settings/enforced_tls
   tags: Email,User, Settings, Enforced, Tls
   properties:
@@ -3369,8 +3367,8 @@ apis:
     and the recipient does not support TLS or have a valid certificate, we drop the
     message and send a block event with \u201CTLS required but not supported\u201D
     as the description."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//user/settings/enforced_tls
   tags: Email,User, Settings, Enforced, Tls
   properties:
@@ -3386,8 +3384,8 @@ apis:
     For more information about your user profile:
 
     * [SendGrid Account Settings](https://sendgrid.com/docs/User_Guide/Settings/account.html)
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//user/username
   tags: Email,User, Username
   properties:
@@ -3403,8 +3401,8 @@ apis:
     For more information about your user profile:
 
     * [SendGrid Account Settings](https://sendgrid.com/docs/User_Guide/Settings/account.html)
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//user/username
   tags: Email,User, Username
   properties:
@@ -3419,8 +3417,8 @@ apis:
     SendGrid processes your email.\n\nCommon uses of this data are to remove unsubscribes,
     react to spam reports, determine unengaged recipients, identify bounced email
     addresses, or create advanced analytics of your email program."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//user/webhooks/event/settings
   tags: Email,User, Webhooks, Event, Settings
   properties:
@@ -3437,8 +3435,8 @@ apis:
     email.\n\nCommon uses of this data are to remove unsubscribes, react to spam reports,
     determine unengaged recipients, identify bounced email addresses, or create advanced
     analytics of your email program."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//user/webhooks/event/settings
   tags: Email,User, Webhooks, Event, Settings
   properties:
@@ -3452,8 +3450,8 @@ apis:
     occur as SendGrid processes your email.\n\nCommon uses of this data are to remove
     unsubscribes, react to spam reports, determine unengaged recipients, identify
     bounced email addresses, or create advanced analytics of your email program."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//user/webhooks/event/test
   tags: Email,User, Webhooks, Event, Test
   properties:
@@ -3465,8 +3463,8 @@ apis:
     **This endpoint allows you to retrieve all of your current inbound parse settings.**
 
     The inbound parse webhook allows you to have incoming emails parsed, extracting some or all of the contnet, and then have that content POSTed by SendGrid to a URL of your choosing. For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Webhooks/parse.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//user/webhooks/parse/settings
   tags: Email,User, Webhooks, Parse, Settings
   properties:
@@ -3480,8 +3478,8 @@ apis:
     **This endpoint allows you to create a new inbound parse setting.**
 
     The inbound parse webhook allows you to have incoming emails parsed, extracting some or all of the content, and then have that content POSTed by SendGrid to a URL of your choosing. For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Webhooks/parse.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//user/webhooks/parse/settings
   tags: Email,User, Webhooks, Parse, Settings
   properties:
@@ -3493,8 +3491,8 @@ apis:
     **This endpoint allows you to delete a specific inbound parse setting.**
 
     The inbound parse webhook allows you to have incoming emails parsed, extracting some or all of the contnet, and then have that content POSTed by SendGrid to a URL of your choosing. For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Webhooks/parse.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//user/webhooks/parse/settings/{hostname}
   tags: Email,User, Webhooks, Parse, Settings, Hostname
   properties:
@@ -3508,8 +3506,8 @@ apis:
     **This endpoint allows you to retrieve a specific inbound parse setting.**
 
     The inbound parse webhook allows you to have incoming emails parsed, extracting some or all of the contnet, and then have that content POSTed by SendGrid to a URL of your choosing. For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Webhooks/parse.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//user/webhooks/parse/settings/{hostname}
   tags: Email,User, Webhooks, Parse, Settings, Hostname
   properties:
@@ -3523,8 +3521,8 @@ apis:
     **This endpoint allows you to update a specific inbound parse setting.**
 
     The inbound parse webhook allows you to have incoming emails parsed, extracting some or all of the contnet, and then have that content POSTed by SendGrid to a URL of your choosing. For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Webhooks/parse.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//user/webhooks/parse/settings/{hostname}
   tags: Email,User, Webhooks, Parse, Settings, Hostname
   properties:
@@ -3538,8 +3536,8 @@ apis:
     SendGrid's Inbound Parse Webhook allows you to parse the contents and attachments of incomming emails. The Parse API can then POST the parsed emails to a URL that you specify. The Inbound Parse Webhook cannot parse messages greater than 20MB in size, including all attachments.
 
     There are a number of pre-made integrations for the SendGrid Parse Webhook which make processing events easy. You can find these integrations in the [Library Index](https://sendgrid.com/docs/Integrate/libraries.html#-Webhook-Libraries).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//user/webhooks/parse/stats
   tags: Email,User, Webhooks, Parse, Stats
   properties:
@@ -3558,8 +3556,8 @@ apis:
     choose to use Automated Security, SendGrid will provide you with 3 CNAME records.
     If you turn Automated Security off, you will be given 2 TXT records and 1 MX record.\n\nFor
     more information on whitelabeling, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/Whitelabel/index.html)"
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//whitelabel/domains
   tags: Email,Whitelabel, Domains
   properties:
@@ -3586,8 +3584,8 @@ apis:
     Security, SendGrid will provide you with 3 CNAME records. If you turn Automated
     Security off, you will be given 2 TXT records and 1 MX record.\n\nFor more information
     on whitelabeling, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/Whitelabel/index.html)"
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//whitelabel/domains
   tags: Email,Whitelabel, Domains
   properties:
@@ -3606,8 +3604,8 @@ apis:
     more information on whitelabeling, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/Whitelabel/index.html)\n\n##
     URI Parameters\n| URI Parameter   | Type   | Description  |\n|---|---|---|\n|
     domain | string  |The domain to find a default domain whitelabel for. |"
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//whitelabel/domains/default
   tags: Email,Whitelabel, Domains, Default
   properties:
@@ -3634,8 +3632,8 @@ apis:
     URI Parameters\n| URI Parameter   | Type  | Required?  | Description  |\n|---|---|---|---|\n|
     username | string  | required  | Username for the subuser to find associated whitelabels
     for. |"
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//whitelabel/domains/subuser
   tags: Email,Whitelabel, Domains, Subuser
   properties:
@@ -3659,8 +3657,8 @@ apis:
     tools.\n\nFor more information on whitelabeling, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/Whitelabel/index.html)\n\n##
     URI Parameters\n| URI Parameter   | Type  | Description  |\n|---|---|---|\n| username
     | string  | Username of the subuser to find associated whitelabels for. |"
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//whitelabel/domains/subuser
   tags: Email,Whitelabel, Domains, Subuser
   properties:
@@ -3679,8 +3677,8 @@ apis:
     SendGrid will provide you with 3 CNAME records. If you turn Automated Security
     off, you will be given 2 TXT records and 1 MX record.\n\nFor more information
     on whitelabeling, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/Whitelabel/index.html)"
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//whitelabel/domains/{domain_id}
   tags: Email,Whitelabel, Domains, Domain
   properties:
@@ -3697,8 +3695,8 @@ apis:
     Security, SendGrid will provide you with 3 CNAME records. If you turn Automated
     Security off, you will be given 2 TXT records and 1 MX record.\n\nFor more information
     on whitelabeling, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/Whitelabel/index.html)"
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//whitelabel/domains/{domain_id}
   tags: Email,Whitelabel, Domains, Domain
   properties:
@@ -3717,8 +3715,8 @@ apis:
     Security, SendGrid will provide you with 3 CNAME records. If you turn Automated
     Security off, you will be given 2 TXT records and 1 MX record.\n\nFor more information
     on whitelabeling, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/Whitelabel/index.html)"
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//whitelabel/domains/{domain_id}
   tags: Email,Whitelabel, Domains, Domain
   properties:
@@ -3743,8 +3741,8 @@ apis:
     URI Parameters\n| URI Parameter   | Type   | Description  |\n|---|---|---|\n|
     domain_id | integer   | ID of the domain whitelabel to associate with the subuser.
     |"
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//whitelabel/domains/{domain_id}/subuser
   tags: Email,Whitelabel, Domains, Domain, , Subuser
   properties:
@@ -3763,8 +3761,8 @@ apis:
     on whitelabeling, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/Whitelabel/index.html)\n\n##
     URI Parameters\n| URI Parameter   | Type  |  Description  |\n|---|---|---|\n|
     id | integer  | ID of the domain to which you are adding an IP |"
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//whitelabel/domains/{id}/ips
   tags: Email,Whitelabel, Domains, , Ips
   properties:
@@ -3784,8 +3782,8 @@ apis:
     URI Parameters\n| URI Parameter   | Type  | Description  |\n|---|---|---|\n| id
     | integer  | ID of the domain whitelabel to delete the IP from. |\n| ip | string
     | IP to remove from the domain whitelabel. |"
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//whitelabel/domains/{id}/ips/{ip}
   tags: Email,Whitelabel, Domains, , Ips, Ip
   properties:
@@ -3805,8 +3803,8 @@ apis:
     more information on whitelabeling, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/Whitelabel/index.html)\n\n##
     URI Parameters\n| URI Parameter   | Type   | Description  |\n|---|---|---|\n|
     id | integer  |ID of the domain whitelabel to validate. |"
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//whitelabel/domains/{id}/validate
   tags: Email,Whitelabel, Domains, , Valate
   properties:
@@ -3822,8 +3820,8 @@ apis:
     A IP whitelabel consists of a subdomain and domain that will be used to generate a reverse DNS record for a given IP. Once SendGrid has verified that the appropriate A record for the IP has been created, the appropriate reverse DNS record for the IP is generated.
 
     For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Web_API_v3/Whitelabel/ips.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//whitelabel/ips
   tags: Email,Whitelabel, Ips
   properties:
@@ -3839,8 +3837,8 @@ apis:
     A IP whitelabel consists of a subdomain and domain that will be used to generate a reverse DNS record for a given IP. Once SendGrid has verified that the appropriate A record for the IP has been created, the appropriate reverse DNS record for the IP is generated.
 
     For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Web_API_v3/Whitelabel/ips.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//whitelabel/ips
   tags: Email,Whitelabel, Ips
   properties:
@@ -3854,8 +3852,8 @@ apis:
     A IP whitelabel consists of a subdomain and domain that will be used to generate a reverse DNS record for a given IP. Once SendGrid has verified that the appropriate A record for the IP has been created, the appropriate reverse DNS record for the IP is generated.
 
     For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Web_API_v3/Whitelabel/ips.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//whitelabel/ips/{id}
   tags: Email,Whitelabel, Ips
   properties:
@@ -3869,8 +3867,8 @@ apis:
     A IP whitelabel consists of a subdomain and domain that will be used to generate a reverse DNS record for a given IP. Once SendGrid has verified that the appropriate A record for the IP has been created, the appropriate reverse DNS record for the IP is generated.
 
     For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Web_API_v3/Whitelabel/ips.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//whitelabel/ips/{id}
   tags: Email,Whitelabel, Ips
   properties:
@@ -3884,8 +3882,8 @@ apis:
     A IP whitelabel consists of a subdomain and domain that will be used to generate a reverse DNS record for a given IP. Once SendGrid has verified that the appropriate A record for the IP has been created, the appropriate reverse DNS record for the IP is generated.
 
     For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Web_API_v3/Whitelabel/ips.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//whitelabel/ips/{id}/validate
   tags: Email,Whitelabel, Ips, , Valate
   properties:
@@ -3899,8 +3897,8 @@ apis:
     Email link whitelabels allow all of the click-tracked links you send in your emails to include the URL of your domain instead of sendgrid.net.
 
     For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Web_API_v3/Whitelabel/links.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//whitelabel/links
   tags: Email,Whitelabel, Links
   properties:
@@ -3916,8 +3914,8 @@ apis:
     Email link whitelabels allow all of the click-tracked links you send in your emails to include the URL of your domain instead of sendgrid.net.
 
     For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Web_API_v3/Whitelabel/links.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//whitelabel/links
   tags: Email,Whitelabel, Links
   properties:
@@ -3938,8 +3936,8 @@ apis:
     Email link whitelabels allow all of the click-tracked links you send in your emails to include the URL of your domain instead of sendgrid.net.
 
     For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Web_API_v3/Whitelabel/links.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//whitelabel/links/default
   tags: Email,Whitelabel, Links, Default
   properties:
@@ -3959,8 +3957,8 @@ apis:
     Email link whitelabels allow all of the click-tracked links you send in your emails to include the URL of your domain instead of sendgrid.net.
 
     For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Web_API_v3/Whitelabel/links.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//whitelabel/links/subuser
   tags: Email,Whitelabel, Links, Subuser
   properties:
@@ -3978,8 +3976,8 @@ apis:
     Email link whitelabels allow all of the click-tracked links you send in your emails to include the URL of your domain instead of sendgrid.net.
 
     For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Web_API_v3/Whitelabel/links.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//whitelabel/links/subuser
   tags: Email,Whitelabel, Links, Subuser
   properties:
@@ -3995,8 +3993,8 @@ apis:
     Email link whitelabels allow all of the click-tracked links you send in your emails to include the URL of your domain instead of sendgrid.net.
 
     For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Web_API_v3/Whitelabel/links.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//whitelabel/links/{id}
   tags: Email,Whitelabel, Links
   properties:
@@ -4010,8 +4008,8 @@ apis:
     Email link whitelabels allow all of the click-tracked links you send in your emails to include the URL of your domain instead of sendgrid.net.
 
     For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Web_API_v3/Whitelabel/links.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//whitelabel/links/{id}
   tags: Email,Whitelabel, Links
   properties:
@@ -4027,8 +4025,8 @@ apis:
     Email link whitelabels allow all of the click-tracked links you send in your emails to include the URL of your domain instead of sendgrid.net.
 
     For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Web_API_v3/Whitelabel/links.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//whitelabel/links/{id}
   tags: Email,Whitelabel, Links
   properties:
@@ -4042,8 +4040,8 @@ apis:
     Email link whitelabels allow all of the click-tracked links you send in your emails to include the URL of your domain instead of sendgrid.net.
 
     For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Web_API_v3/Whitelabel/links.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//whitelabel/links/{id}/validate
   tags: Email,Whitelabel, Links, , Valate
   properties:
@@ -4061,8 +4059,8 @@ apis:
     Email link whitelabels allow all of the click-tracked links you send in your emails to include the URL of your domain instead of sendgrid.net.
 
     For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Web_API_v3/Whitelabel/links.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//whitelabel/links/{link_id}/subuser
   tags: Email,Whitelabel, Links, Link, , Subuser
   properties:
@@ -4074,15 +4072,15 @@ apis:
     cost and complexity of maintaining custom email systems. SendGrid provides reliable
     delivery, scalability and real-time analytics along with flexible APIs that make
     custom integration a breeze.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3
   tags: SendGrid
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/sendgrid/master/_listings/sendgrid/openapi.md
 x-common:
-- type: x-net-library
+- type: x--net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
 - type: x-base
   url: https://api.sendgrid.com
@@ -4094,10 +4092,18 @@ x-common:
   url: https://sendgrid.com/contact
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/sendgrid
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/sendgrid
 - type: x-developer
   url: https://sendgrid.com/developers
 - type: x-documentation
   url: https://sendgrid.com/docs/index.html
+- type: x-email
+  url: privacy@sendgrid.com
+- type: x-email
+  url: legal@sendgrid.com
+- type: x-email
+  url: dpo@sendgrid.com
 - type: x-forum
   url: http://support.sendgrid.com/forums
 - type: x-github
@@ -4110,7 +4116,7 @@ x-common:
   url: https://sendgrid.com/docs/Code_Examples/java.html
 - type: x-labs
   url: http://labs.sendgrid.com/
-- type: x-nodejs-library
+- type: x-node-js-library
   url: https://sendgrid.com/docs/Code_Examples/nodejs.html
 - type: x-partners
   url: https://sendgrid.com/partners
@@ -4134,6 +4140,8 @@ x-common:
   url: https://sendgrid.com/tos
 - type: x-twitter
   url: https://twitter.com/SendGrid
+- type: x-website
+  url: http://sendgrid.com
 - type: x-website
   url: https://sendgrid.com/
 include: []
