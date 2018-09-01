@@ -4,10 +4,10 @@ x-collection-name: SendGrid
 x-complete: 0
 info:
   title: SendGrid Get Mail Settings
-  description: "**This endpoint allows you to retrieve a list of all mail settings.**\n\nMail
-    settings allow you to tell SendGrid specific things to do to every email that
-    you send to your recipients over SendGrid\u2019s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
-    or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
+  description: |-
+    **This endpoint allows you to retrieve a list of all mail settings.**
+
+    Mail settings allow you to tell SendGrid specific things to do to every email that you send to your recipients over SendGrid???s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html).
   version: 1.0.0
 host: api.sendgrid.com
 basePath: /v3
@@ -1115,10 +1115,10 @@ paths:
   /categories:
     get:
       summary: Get Categories
-      description: "**This endpoint allows you to retrieve a list of all of your categories.**\n\nCategories
-        can help organize your email analytics by enabling you to \u201Ctag\u201D
-        emails by type or broad topic. You can define your own custom categories.
-        For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/categories.html)."
+      description: |-
+        **This endpoint allows you to retrieve a list of all of your categories.**
+
+        Categories can help organize your email analytics by enabling you to ???tag??? emails by type or broad topic. You can define your own custom categories. For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/categories.html).
       operationId: GET_categories
       x-api-path-slug: categories-get
       parameters:
@@ -2584,14 +2584,14 @@ paths:
   /mail/send:
     post:
       summary: Add Mail Send
-      description: "This endpoint allows you to send email over SendGrid\u2019s v3
-        Web API, the most recent version of our API. If you are looking for documentation
+      description: "This endpoint allows you to send email over SendGrid???s v3 Web
+        API, the most recent version of our API. If you are looking for documentation
         about the v2 Mail Send endpoint, please see our [v2 API Reference](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).\n\n*
         Top level parameters are referred to as \"global\".\n* Individual fields within
-        the personalizations array will override any other global, or \u201Cmessage
-        level\u201D, parameters that are defined outside of personalizations.\n \n**SendGrid
-        provides libraries to help you quickly and easily integrate with the v3 Web
-        API in 7 different languages: [C#](https://github.com/sendgrid/sendgrid-csharp),
+        the personalizations array will override any other global, or ???message level???,
+        parameters that are defined outside of personalizations.\n \n**SendGrid provides
+        libraries to help you quickly and easily integrate with the v3 Web API in
+        7 different languages: [C#](https://github.com/sendgrid/sendgrid-csharp),
         [Go](https://github.com/sendgrid/sendgrid-go), [Java](https://github.com/sendgrid/sendgrid-java),
         [Node JS](https://github.com/sendgrid/sendgrid-nodejs), [PHP](https://github.com/sendgrid/sendgrid-php),
         [Python](https://github.com/sendgrid/sendgrid-python), and [Ruby](https://github.com/sendgrid/sendgrid-ruby).**\n\n\nFor
@@ -2614,10 +2614,10 @@ paths:
   /mail_settings:
     get:
       summary: Get Mail Settings
-      description: "**This endpoint allows you to retrieve a list of all mail settings.**\n\nMail
-        settings allow you to tell SendGrid specific things to do to every email that
-        you send to your recipients over SendGrid\u2019s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
-        or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
+      description: |-
+        **This endpoint allows you to retrieve a list of all mail settings.**
+
+        Mail settings allow you to tell SendGrid specific things to do to every email that you send to your recipients over SendGrid???s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html).
       operationId: GET_mail_settings
       x-api-path-slug: mail-settings-get
       parameters:

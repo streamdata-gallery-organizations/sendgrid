@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - SendGrid",
+	"description": "This is a repository of sendgrid APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/sendgrid.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-31",
+	"url": "http://sendgrid.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "SendGrid",
+			"x-api-slug": "sendgrid",
+			"description": "Delivering your transactional and marketing emails through the worlds largest cloud-based email delivery platform. Send with confidence.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg",
+			"humanURL": "http://sendgrid.com",
+			"baseURL": "https:///",
+			"tags": "SendGrid",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/sendgrid/master/_listings/sendgrid/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "SendGrid",
+	"include": [
+		{
+			"name": "SendGrid",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/sendgrid/master/_listings/sendgrid/apis.yaml"
+		}
+	]
+}
